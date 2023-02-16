@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cart Page</title>
+        <link rel="icon" href="favicon.png" />
+        <link href="css/index.css" rel="stylesheet" />
+    </head>
+    <body onload="onCartPageLoad()">
+        <h1 class="app-title">CART</h1>
+        <h2 id="cart-information">Your cart is Empty!</h2>
+        <div id="root"></div>
+        <div class="cart-actions">
+            <a href="index.html">Continue Shopping!</a>
+            <button onclick="handleClearCart()">Clear cart</button>
+        </div>
+        <script src="lib/sweetalert.min.js"></script>
+        <script src="mock.js"></script>
+        <script src="controller.js"></script>
+        <script src="model.js"></script>
+        <script src="view.js"></script>
+    </body>
+</html>

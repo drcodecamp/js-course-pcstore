@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Shop Page</title>
+        <link rel="icon" href="favicon.png" />
+        <link href="css/index.css" rel="stylesheet" />
+    </head>
+    <body onload="onShopPageLoad()">
+        <div class="container">
+            <header>
+                <h1>PC SHOP</h1>
+                <h2>pc store best moto you can ever think of</h2>
+            </header>
+            <nav>
+                <label>
+                    <input
+                        id="search"
+                        class="search-input"
+                        type="text"
+                        placeholder="search..."
+                    />
+                </label>
+                <a href="cart.html"> Go to cart </a>
+            </nav>
+            <div id="root" class="computers-container"></div>
+        </div>
+        <script type="application/json" src="data.json"></script>
+        <script src="lib/sweetalert.min.js"></script>
+        <script src="mock.js"></script>
+        <script src="controller.js"></script>
+        <script src="model.js"></script>
+        <script src="view.js"></script>
+    </body>
+</html>
